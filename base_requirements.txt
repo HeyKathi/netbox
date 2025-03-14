@@ -24,7 +24,7 @@ django-mptt
 
 # Context managers for PostgreSQL advisory locks
 # https://github.com/Xof/django-pglocks/blob/master/CHANGES.txt
-django-pglocks
+django-pglock
 
 # Prometheus metrics library for Django
 # https://github.com/korfuri/django-prometheus/blob/master/CHANGELOG.md
