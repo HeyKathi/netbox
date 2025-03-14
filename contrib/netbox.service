@@ -19,7 +19,7 @@ ExecStart=/opt/netbox/venv/bin/gunicorn --pid /var/tmp/netbox.pid --pythonpath /
 #ExecStart=/opt/netbox/venv/bin/uwsgi --ini /opt/netbox/uwsgi.ini
 
 Restart=on-failure
-RestartSec=30
+RestartSec=3
 PrivateTmp=true
 
 [Install]
